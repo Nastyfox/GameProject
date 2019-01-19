@@ -1,0 +1,5 @@
+"D:\CLion\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Game Project\Game"
+-- Configuring done
+WARNING: Target "Game" requests linking to directory "D:/Game Project/Game/lib".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: D:/Game Project/Game/cmake-build-debug

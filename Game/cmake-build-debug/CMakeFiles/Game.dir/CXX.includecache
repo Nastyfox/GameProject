@@ -1,0 +1,608 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Game Project/Game/include/SDL.h
+SDL_main.h
+D:/Game Project/Game/include/SDL_main.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_assert.h
+D:/Game Project/Game/include/SDL_assert.h
+SDL_atomic.h
+D:/Game Project/Game/include/SDL_atomic.h
+SDL_audio.h
+D:/Game Project/Game/include/SDL_audio.h
+SDL_clipboard.h
+D:/Game Project/Game/include/SDL_clipboard.h
+SDL_cpuinfo.h
+D:/Game Project/Game/include/SDL_cpuinfo.h
+SDL_endian.h
+D:/Game Project/Game/include/SDL_endian.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_events.h
+D:/Game Project/Game/include/SDL_events.h
+SDL_filesystem.h
+D:/Game Project/Game/include/SDL_filesystem.h
+SDL_gamecontroller.h
+D:/Game Project/Game/include/SDL_gamecontroller.h
+SDL_haptic.h
+D:/Game Project/Game/include/SDL_haptic.h
+SDL_hints.h
+D:/Game Project/Game/include/SDL_hints.h
+SDL_joystick.h
+D:/Game Project/Game/include/SDL_joystick.h
+SDL_loadso.h
+D:/Game Project/Game/include/SDL_loadso.h
+SDL_log.h
+D:/Game Project/Game/include/SDL_log.h
+SDL_messagebox.h
+D:/Game Project/Game/include/SDL_messagebox.h
+SDL_mutex.h
+D:/Game Project/Game/include/SDL_mutex.h
+SDL_power.h
+D:/Game Project/Game/include/SDL_power.h
+SDL_render.h
+D:/Game Project/Game/include/SDL_render.h
+SDL_rwops.h
+D:/Game Project/Game/include/SDL_rwops.h
+SDL_sensor.h
+D:/Game Project/Game/include/SDL_sensor.h
+SDL_shape.h
+D:/Game Project/Game/include/SDL_shape.h
+SDL_system.h
+D:/Game Project/Game/include/SDL_system.h
+SDL_thread.h
+D:/Game Project/Game/include/SDL_thread.h
+SDL_timer.h
+D:/Game Project/Game/include/SDL_timer.h
+SDL_version.h
+D:/Game Project/Game/include/SDL_version.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_assert.h
+SDL_config.h
+D:/Game Project/Game/include/SDL_config.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+signal.h
+-
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_atomic.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_platform.h
+D:/Game Project/Game/include/SDL_platform.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+mbarrier.h
+-
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_audio.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_endian.h
+D:/Game Project/Game/include/SDL_endian.h
+SDL_mutex.h
+D:/Game Project/Game/include/SDL_mutex.h
+SDL_thread.h
+D:/Game Project/Game/include/SDL_thread.h
+SDL_rwops.h
+D:/Game Project/Game/include/SDL_rwops.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_blendmode.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_clipboard.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_config.h
+SDL_platform.h
+D:/Game Project/Game/include/SDL_platform.h
+
+D:/Game Project/Game/include/SDL_cpuinfo.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+intrin.h
+-
+intrin.h
+-
+altivec.h
+-
+arm_neon.h
+-
+mm3dnow.h
+-
+immintrin.h
+-
+mmintrin.h
+-
+xmmintrin.h
+-
+emmintrin.h
+-
+pmmintrin.h
+-
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_endian.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+endian.h
+-
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_error.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_events.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+SDL_keyboard.h
+D:/Game Project/Game/include/SDL_keyboard.h
+SDL_mouse.h
+D:/Game Project/Game/include/SDL_mouse.h
+SDL_joystick.h
+D:/Game Project/Game/include/SDL_joystick.h
+SDL_gamecontroller.h
+D:/Game Project/Game/include/SDL_gamecontroller.h
+SDL_quit.h
+D:/Game Project/Game/include/SDL_quit.h
+SDL_gesture.h
+D:/Game Project/Game/include/SDL_gesture.h
+SDL_touch.h
+D:/Game Project/Game/include/SDL_touch.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_filesystem.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_gamecontroller.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_rwops.h
+D:/Game Project/Game/include/SDL_rwops.h
+SDL_joystick.h
+D:/Game Project/Game/include/SDL_joystick.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_gesture.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+SDL_touch.h
+D:/Game Project/Game/include/SDL_touch.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_haptic.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_joystick.h
+D:/Game Project/Game/include/SDL_joystick.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_hints.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_joystick.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_keyboard.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_keycode.h
+D:/Game Project/Game/include/SDL_keycode.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_keycode.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_scancode.h
+D:/Game Project/Game/include/SDL_scancode.h
+
+D:/Game Project/Game/include/SDL_loadso.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_log.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_main.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_messagebox.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_mouse.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_mutex.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_pixels.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_endian.h
+D:/Game Project/Game/include/SDL_endian.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_platform.h
+AvailabilityMacros.h
+D:/Game Project/Game/include/AvailabilityMacros.h
+TargetConditionals.h
+D:/Game Project/Game/include/TargetConditionals.h
+winapifamily.h
+-
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_power.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_quit.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+
+D:/Game Project/Game/include/SDL_rect.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_pixels.h
+D:/Game Project/Game/include/SDL_pixels.h
+SDL_rwops.h
+D:/Game Project/Game/include/SDL_rwops.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_render.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_rect.h
+D:/Game Project/Game/include/SDL_rect.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_rwops.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_scancode.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+
+D:/Game Project/Game/include/SDL_sensor.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_shape.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_pixels.h
+D:/Game Project/Game/include/SDL_pixels.h
+SDL_rect.h
+D:/Game Project/Game/include/SDL_rect.h
+SDL_surface.h
+D:/Game Project/Game/include/SDL_surface.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_config.h
+D:/Game Project/Game/include/SDL_config.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+stddef.h
+-
+stdarg.h
+-
+stdlib.h
+-
+malloc.h
+-
+stddef.h
+-
+stdarg.h
+-
+memory.h
+-
+string.h
+-
+strings.h
+-
+wchar.h
+-
+inttypes.h
+-
+stdint.h
+-
+ctype.h
+-
+math.h
+-
+float.h
+-
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+malloc.h
+-
+stdlib.h
+-
+sal.h
+-
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_surface.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_pixels.h
+D:/Game Project/Game/include/SDL_pixels.h
+SDL_rect.h
+D:/Game Project/Game/include/SDL_rect.h
+SDL_blendmode.h
+D:/Game Project/Game/include/SDL_blendmode.h
+SDL_rwops.h
+D:/Game Project/Game/include/SDL_rwops.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_system.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_keyboard.h
+D:/Game Project/Game/include/SDL_keyboard.h
+SDL_render.h
+D:/Game Project/Game/include/SDL_render.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_thread.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_atomic.h
+D:/Game Project/Game/include/SDL_atomic.h
+SDL_mutex.h
+D:/Game Project/Game/include/SDL_mutex.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+process.h
+-
+process.h
+-
+stdlib.h
+-
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_timer.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_touch.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_error.h
+D:/Game Project/Game/include/SDL_error.h
+SDL_video.h
+D:/Game Project/Game/include/SDL_video.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_version.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/SDL_video.h
+SDL_stdinc.h
+D:/Game Project/Game/include/SDL_stdinc.h
+SDL_pixels.h
+D:/Game Project/Game/include/SDL_pixels.h
+SDL_rect.h
+D:/Game Project/Game/include/SDL_rect.h
+SDL_surface.h
+D:/Game Project/Game/include/SDL_surface.h
+begin_code.h
+D:/Game Project/Game/include/begin_code.h
+close_code.h
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/include/begin_code.h
+
+D:/Game Project/Game/include/close_code.h
+
+D:/Game Project/Game/main.cpp
+iostream
+-
+include/SDL.h
+D:/Game Project/Game/include/SDL.h
+
