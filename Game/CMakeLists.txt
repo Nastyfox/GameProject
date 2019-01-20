@@ -13,4 +13,4 @@ include_directories(${SDL2_INCLUDE_DIR})
 set(SOURCE_FILES main.cpp)
 
 add_executable(Game ${SOURCE_FILES})
-target_link_libraries(Game ${SDL2_LIBRARY})
+target_link_libraries(Game ${SDL2_LIBRARY} -lmingw32 -lSDL2main -lSDL2)

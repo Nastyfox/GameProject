@@ -1,4 +1,4 @@
-# Install script for directory: D:/Game Project/Game
+# Install script for directory: D:/Game Project/GameProject/Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Game Project/Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Game Project/GameProject/Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
