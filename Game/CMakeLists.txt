@@ -10,7 +10,7 @@ set(SDL2_LIBRARY ${PROJECT_SOURCE_DIR}/lib)
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIR})
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES src/main.cpp src/Graphics.cpp headers/Graphics.h src/Game.cpp headers/Game.h)
 
 add_executable(Game ${SOURCE_FILES})
 target_link_libraries(Game ${SDL2_LIBRARY} -lmingw32 -lSDL2main -lSDL2)
