@@ -1,5 +1,5 @@
 "D:\CLion\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/CLion/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/CLion/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/CLion/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" "D:\Game Project\GameProject\Game"
+-- Could NOT find SDL2_IMAGE (missing: SDL2_IMAGE_INCLUDE_DIR) 
 -- Configuring done
-WARNING: Target "Game" requests linking to directory "D:/Game Project/GameProject/Game/lib".  Targets may link only to libraries.  CMake is dropping the item.
 -- Generating done
 -- Build files have been written to: D:/Game Project/GameProject/Game/cmake-build-debug

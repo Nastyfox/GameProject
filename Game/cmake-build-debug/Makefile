@@ -176,6 +176,60 @@ src/Graphics.cpp.s:
 	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
 
+src/Level.obj: src/Level.cpp.obj
+
+.PHONY : src/Level.obj
+
+# target to build an object file
+src/Level.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Level.cpp.obj
+.PHONY : src/Level.cpp.obj
+
+src/Level.i: src/Level.cpp.i
+
+.PHONY : src/Level.i
+
+# target to preprocess a source file
+src/Level.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Level.cpp.i
+.PHONY : src/Level.cpp.i
+
+src/Level.s: src/Level.cpp.s
+
+.PHONY : src/Level.s
+
+# target to generate assembly for a file
+src/Level.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Level.cpp.s
+.PHONY : src/Level.cpp.s
+
+src/Sprite.obj: src/Sprite.cpp.obj
+
+.PHONY : src/Sprite.obj
+
+# target to build an object file
+src/Sprite.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Sprite.cpp.obj
+.PHONY : src/Sprite.cpp.obj
+
+src/Sprite.i: src/Sprite.cpp.i
+
+.PHONY : src/Sprite.i
+
+# target to preprocess a source file
+src/Sprite.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Sprite.cpp.i
+.PHONY : src/Sprite.cpp.i
+
+src/Sprite.s: src/Sprite.cpp.s
+
+.PHONY : src/Sprite.s
+
+# target to generate assembly for a file
+src/Sprite.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Sprite.cpp.s
+.PHONY : src/Sprite.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -218,6 +272,12 @@ help:
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... src/Level.obj
+	@echo ... src/Level.i
+	@echo ... src/Level.s
+	@echo ... src/Sprite.obj
+	@echo ... src/Sprite.i
+	@echo ... src/Sprite.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

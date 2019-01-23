@@ -24,7 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Game Project/GameProject/Game/include"/>
+					<Add directory="D:/CLion/mingw64/include/SDL2"/>
 					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -46,7 +46,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Game Project/GameProject/Game/include"/>
+					<Add directory="D:/CLion/mingw64/include/SDL2"/>
 					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/CLion/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -85,13 +85,28 @@
 		<Unit filename="D:/Game Project/GameProject/Game/headers/Game.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/headers/Globals.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/headers/Graphics.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/headers/Level.h">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/headers/Sprite.h">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/src/Game.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/src/Graphics.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/src/Level.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/src/Sprite.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/src/main.cpp">

@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/Game Project/GameProject/Game/headers/Game.h
-
 D:/Game Project/GameProject/Game/headers/Graphics.h
+map
+-
+string
+-
+
+D:/Game Project/GameProject/Game/headers/Sprite.h
+string
+-
+../include/SDL.h
+D:/Game Project/GameProject/Game/include/SDL.h
 
 D:/Game Project/GameProject/Game/include/SDL.h
 SDL_main.h
@@ -604,25 +612,11 @@ D:/Game Project/GameProject/Game/include/begin_code.h
 
 D:/Game Project/GameProject/Game/include/close_code.h
 
-D:/Game Project/GameProject/Game/src/Game.cpp
-../headers/Game.h
-D:/Game Project/GameProject/Game/headers/Game.h
-../headers/Graphics.h
-D:/Game Project/GameProject/Game/headers/Graphics.h
-../include/SDL.h
-D:/Game Project/GameProject/Game/include/SDL.h
-
-D:/Game Project/GameProject/Game/src/Graphics.cpp
-../headers/Graphics.h
-D:/Game Project/GameProject/Game/headers/Graphics.h
-../include/SDL.h
-D:/Game Project/GameProject/Game/include/SDL.h
+D:/Game Project/GameProject/Game/src/Sprite.cpp
 iostream
 -
-
-D:/Game Project/GameProject/Game/src/main.cpp
-iostream
--
-../headers/Game.h
-D:/Game Project/GameProject/Game/headers/Game.h
+../headers/Sprite.h
+D:/Game Project/GameProject/Game/headers/Sprite.h
+../headers/Graphics.h
+D:/Game Project/GameProject/Game/headers/Graphics.h
 
