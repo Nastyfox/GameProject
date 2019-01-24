@@ -6,15 +6,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Game Project/GameProject/Game/src/Game.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Game.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Graphics.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Graphics.cpp.obj"
-  "D:/Game Project/GameProject/Game/src/Level.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Level.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Sprite.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Sprite.cpp.obj"
+  "D:/Game Project/GameProject/Game/src/Tile.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Tile.cpp.obj"
   "D:/Game Project/GameProject/Game/src/main.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "D:/CLion/mingw64/include/SDL2"
   )
 
 # Targets to which this target links.

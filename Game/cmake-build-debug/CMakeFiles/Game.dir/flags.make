@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/Game.dir/includes_CXX.rsp
+CXX_INCLUDES = 
 

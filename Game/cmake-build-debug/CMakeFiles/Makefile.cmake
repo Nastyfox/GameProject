@@ -18,16 +18,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeRCInformation.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake"
-  "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CheckIncludeFile.cmake"
-  "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CheckLibraryExists.cmake"
-  "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/CheckSymbolExists.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Compiler/GNU-C.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Compiler/GNU.cmake"
-  "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake"
-  "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/FindPackageMessage.cmake"
-  "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/FindThreads.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows-GNU-C.cmake"
   "D:/CLion/CLion 2018.3.3/bin/cmake/win/share/cmake-3.13/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -42,7 +36,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
-  "../cmake/FindSDL2.cmake"
   )
 
 # The corresponding makefile is:

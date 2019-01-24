@@ -20,7 +20,7 @@ public:
     virtual void update();
     void draw(Graphics &graphics, int x, int y);
 
-private:
+protected:
     SDL_Rect sourceRect;
     SDL_Texture* sprite;
 
