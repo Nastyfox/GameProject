@@ -12,8 +12,7 @@
 
 int cpt = 0;
 
-Game::Game() :
-    spawnTileTime(0)
+Game::Game()
 {
     srand(time(nullptr));
     this->gameLoop();
@@ -28,8 +27,11 @@ void Game::gameLoop() {
     SDL_Event event;
 
     //Load background sprite
-    background = Sprite(graphics, "../content/sprites/background.png", 0, 0, globals::SCREEN_WIDTH, globals::SCREEN_HEIGHT, 0, 0);
-    spawnTiles(graphics);
+    background = Sprite(graphics, globals::BACKGROUND, 0, 0, globals::SCREEN_WIDTH, globals::SCREEN_HEIGHT, 0, 0);
+    //Spawn the first platform
+    map.spawnTiles(graphics);
+    //Add the ground
+    map.ground(graphics);
 
     //Timer
     int elapsedTimeMs = 0;
@@ -67,9 +69,9 @@ void Game::gameLoop() {
             }
 
             //Spawn tile every X seconds
-            if(SDL_GetTicks() - spawnTileTime >= globals::TILE_SPAWN_TIME)
+            if(SDL_GetTicks() - map.getSpawnTime() >= globals::TILE_SPAWN_TIME)
             {
-                spawnTiles(graphics);
+                map.spawnTiles(graphics);
             }
         }
     }
@@ -77,11 +79,7 @@ void Game::gameLoop() {
 
 void Game::update() {
     //Update tiles position
-    for(int i = 0; i < tiles.size(); i++)
-    {
-        destroyTiles();
-        tiles[i].update();
-    }
+    map.update();
 }
 
 void Game::draw(Graphics &graphics) {
@@ -91,39 +89,8 @@ void Game::draw(Graphics &graphics) {
     //Draw background
     background.draw(graphics, 0, 0);
 
-    //Draw each tile
-    for(int i = 0; i < tiles.size(); i++)
-    {
-        tiles[i].draw(graphics);
-    }
+    //Draw ground and platforms
+    map.draw(graphics);
 
     graphics.flip();
-}
-
-void Game::spawnTiles(Graphics &graphics) {
-    //Random spawn position for the tile
-    Vector2 spawnPoint;
-    spawnPoint.x = globals::SCREEN_WIDTH;
-    int posY = (int)(globals::SCREEN_HEIGHT - globals::TILE_SIZE * globals::TILE_HEIGHT);
-    spawnPoint.y = rand() % posY;
-
-    //Create the tile and store it in vector
-    Tile tile = Tile(spawnPoint, Vector2(globals::TILE_IMG_WIDTH, globals::TILE_IMG_HEIGHT), graphics, 100);
-
-    tiles.push_back(tile);
-
-    //Last spawned tile timing
-    spawnTileTime = SDL_GetTicks();
-}
-
-void Game::destroyTiles()
-{
-    //Destroy tiles when they are out of the screen
-    for(int i = 0; i < tiles.size(); i++)
-    {
-        if(tiles[i].getPos().x + globals::TILE_WIDTH < 0)
-        {
-            tiles.erase(tiles.begin()+i);
-        }
-    }
 }

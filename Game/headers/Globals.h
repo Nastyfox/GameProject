@@ -13,12 +13,24 @@ namespace globals
     const int SCREEN_HEIGHT = 720;
 
     //Tile size
-    const int TILE_IMG_WIDTH = 255;
-    const int TILE_IMG_HEIGHT = 147;
+    const int TILE_IMG_WIDTH = 256;
+    const int TILE_IMG_HEIGHT = 140;
     const float TILE_SIZE = 0.5f;
-    const int TILE_WIDTH = TILE_IMG_WIDTH*TILE_SIZE;
-    const int TILE_HEIGHT = TILE_IMG_HEIGHT*TILE_SIZE;
+    const int TILE_WIDTH = (int)(TILE_IMG_WIDTH*TILE_SIZE);
+    const int TILE_HEIGHT = (int)(TILE_IMG_HEIGHT*TILE_SIZE);
     const int TILE_SPAWN_TIME = 2000;
+
+    //Ground size
+    const int GROUND_HEIGHT = 2*TILE_HEIGHT;
+
+    //Tile type
+    const int BACKGROUND = 0;
+    const int GROUND_TILE = 1;
+    const int PLATFORM_TILE = 2;
+    const int SPIKE_TILE = 3;
+
+    //Spawn probability
+    const int SPIKE_PROBA = 5;
 
     //Screen refresh
     const int FPS = 60;

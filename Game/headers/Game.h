@@ -5,9 +5,8 @@
 #ifndef GAME_GAME_H
 #define GAME_GAME_H
 
-#include <vector>
 #include "../headers/Sprite.h"
-#include "../headers/Tile.h"
+#include "../headers/Map.h"
 
 class Graphics;
 
@@ -22,17 +21,12 @@ public:
 private:
     //Game loop management
     void gameLoop();
-    void spawnTiles(Graphics &graphics);
-    void destroyTiles();
 
     //Game status
     bool isRunning;
 
     Sprite background;
-
-    //Tile storage
-    std::vector<Tile> tiles;
-    int spawnTileTime;
+    Map map;
 };
 
 

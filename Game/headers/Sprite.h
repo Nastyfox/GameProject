@@ -5,7 +5,6 @@
 #ifndef GAME_SPRITE_H
 #define GAME_SPRITE_H
 
-#include <string>
 #include "../include/SDL.h"
 
 
@@ -14,7 +13,7 @@ struct Graphics;
 class Sprite {
 public:
     Sprite();
-    Sprite(Graphics &graphics, const std::string &filePath, int sourceX, int sourceY, int width, int height, float posX, float posY);
+    Sprite(Graphics &graphics, int type, int sourceX, int sourceY, int width, int height, float posX, float posY);
     virtual ~Sprite();
 
     virtual void update();

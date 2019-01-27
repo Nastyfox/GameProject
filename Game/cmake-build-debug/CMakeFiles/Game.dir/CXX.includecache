@@ -7,12 +7,10 @@
 #IncludeRegexTransform: 
 
 D:/Game Project/GameProject/Game/headers/Game.h
-vector
--
 ../headers/Sprite.h
 D:/Game Project/GameProject/Game/headers/Sprite.h
-../headers/Tile.h
-D:/Game Project/GameProject/Game/headers/Tile.h
+../headers/Map.h
+D:/Game Project/GameProject/Game/headers/Map.h
 
 D:/Game Project/GameProject/Game/headers/Globals.h
 
@@ -22,9 +20,15 @@ map
 string
 -
 
-D:/Game Project/GameProject/Game/headers/Sprite.h
-string
+D:/Game Project/GameProject/Game/headers/Map.h
+vector
 -
+../headers/Globals.h
+D:/Game Project/GameProject/Game/headers/Globals.h
+../headers/Tile.h
+D:/Game Project/GameProject/Game/headers/Tile.h
+
+D:/Game Project/GameProject/Game/headers/Sprite.h
 ../include/SDL.h
 D:/Game Project/GameProject/Game/include/SDL.h
 
@@ -663,6 +667,24 @@ D:/Game Project/GameProject/Game/headers/Graphics.h
 D:/Game Project/GameProject/Game/include/SDL.h
 ../include/SDL_image.h
 D:/Game Project/GameProject/Game/include/SDL_image.h
+../headers/Globals.h
+D:/Game Project/GameProject/Game/headers/Globals.h
+
+D:/Game Project/GameProject/Game/src/Map.cpp
+../headers/Map.h
+D:/Game Project/GameProject/Game/headers/Map.h
+iostream
+-
+
+D:/Game Project/GameProject/Game/src/Sprite.cpp
+iostream
+-
+string
+-
+../headers/Sprite.h
+D:/Game Project/GameProject/Game/headers/Sprite.h
+../headers/Graphics.h
+D:/Game Project/GameProject/Game/headers/Graphics.h
 ../headers/Globals.h
 D:/Game Project/GameProject/Game/headers/Globals.h
 

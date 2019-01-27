@@ -89,6 +89,9 @@
 		<Unit filename="D:/Game Project/GameProject/Game/headers/Graphics.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/headers/Map.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/headers/Sprite.h">
 			<Option target="Game"/>
 		</Unit>
@@ -99,6 +102,9 @@
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/src/Graphics.cpp">
+			<Option target="Game"/>
+		</Unit>
+		<Unit filename="D:/Game Project/GameProject/Game/src/Map.cpp">
 			<Option target="Game"/>
 		</Unit>
 		<Unit filename="D:/Game Project/GameProject/Game/src/Sprite.cpp">

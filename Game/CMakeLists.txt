@@ -4,7 +4,7 @@ project(Game)
 
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-set(SOURCE_FILES src/main.cpp src/Graphics.cpp headers/Graphics.h src/Game.cpp headers/Game.h src/Tile.cpp headers/Tile.h headers/Globals.h src/Sprite.cpp headers/Sprite.h)
+set(SOURCE_FILES src/main.cpp src/Graphics.cpp headers/Graphics.h src/Game.cpp headers/Game.h src/Tile.cpp headers/Tile.h headers/Globals.h src/Sprite.cpp headers/Sprite.h src/Map.cpp headers/Map.h)
 
 add_executable(Game ${SOURCE_FILES})
 target_link_libraries(Game ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARY} -lSDL2main)

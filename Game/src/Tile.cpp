@@ -9,9 +9,9 @@
 
 Tile::Tile() {}
 
-Tile::Tile(Vector2 spawnPoint, Vector2 size, Graphics &graphics, int timeToUpdate) :
-    Sprite(graphics, "../content/sprites/tile.png", 0, 0, size.x, size.y, spawnPoint.x, spawnPoint.y),
-    pos(spawnPoint), size(size)
+Tile::Tile(int type, Vector2 spawnPoint, Vector2 size, Graphics &graphics) :
+    Sprite(graphics, type, 0, 0, size.x, size.y, spawnPoint.x, spawnPoint.y),
+    pos(spawnPoint), size(size), type(type)
 {
 
 }
@@ -34,4 +34,8 @@ void Tile::draw(Graphics &graphics) {
 
 const Vector2 &Tile::getPos() const {
     return pos;
+}
+
+int Tile::getType() const {
+    return type;
 }

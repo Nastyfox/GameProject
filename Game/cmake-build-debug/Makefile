@@ -176,6 +176,33 @@ src/Graphics.cpp.s:
 	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
 
+src/Map.obj: src/Map.cpp.obj
+
+.PHONY : src/Map.obj
+
+# target to build an object file
+src/Map.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Map.cpp.obj
+.PHONY : src/Map.cpp.obj
+
+src/Map.i: src/Map.cpp.i
+
+.PHONY : src/Map.i
+
+# target to preprocess a source file
+src/Map.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Map.cpp.i
+.PHONY : src/Map.cpp.i
+
+src/Map.s: src/Map.cpp.s
+
+.PHONY : src/Map.s
+
+# target to generate assembly for a file
+src/Map.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Map.cpp.s
+.PHONY : src/Map.cpp.s
+
 src/Sprite.obj: src/Sprite.cpp.obj
 
 .PHONY : src/Sprite.obj
@@ -272,6 +299,9 @@ help:
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... src/Map.obj
+	@echo ... src/Map.i
+	@echo ... src/Map.s
 	@echo ... src/Sprite.obj
 	@echo ... src/Sprite.i
 	@echo ... src/Sprite.s
