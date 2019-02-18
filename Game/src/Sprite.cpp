@@ -37,6 +37,9 @@ Sprite::Sprite(Graphics &graphics, int type, int sourceX, int sourceY, int width
         case globals::SPIKE_TILE :
             filePath = "../content/sprites/spikes.png";
             break;
+        case globals::PLAYER:
+            filePath = "../content/sprites/base_character.png";
+            break;
     }
 
     //Get sprite from image

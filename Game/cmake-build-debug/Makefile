@@ -122,6 +122,33 @@ Game/fast:
 	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
+src/AnimatedSprite.obj: src/AnimatedSprite.cpp.obj
+
+.PHONY : src/AnimatedSprite.obj
+
+# target to build an object file
+src/AnimatedSprite.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/AnimatedSprite.cpp.obj
+.PHONY : src/AnimatedSprite.cpp.obj
+
+src/AnimatedSprite.i: src/AnimatedSprite.cpp.i
+
+.PHONY : src/AnimatedSprite.i
+
+# target to preprocess a source file
+src/AnimatedSprite.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/AnimatedSprite.cpp.i
+.PHONY : src/AnimatedSprite.cpp.i
+
+src/AnimatedSprite.s: src/AnimatedSprite.cpp.s
+
+.PHONY : src/AnimatedSprite.s
+
+# target to generate assembly for a file
+src/AnimatedSprite.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/AnimatedSprite.cpp.s
+.PHONY : src/AnimatedSprite.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 
 .PHONY : src/Game.obj
@@ -175,6 +202,33 @@ src/Graphics.s: src/Graphics.cpp.s
 src/Graphics.cpp.s:
 	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Graphics.cpp.s
 .PHONY : src/Graphics.cpp.s
+
+src/Input.obj: src/Input.cpp.obj
+
+.PHONY : src/Input.obj
+
+# target to build an object file
+src/Input.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Input.cpp.obj
+.PHONY : src/Input.cpp.obj
+
+src/Input.i: src/Input.cpp.i
+
+.PHONY : src/Input.i
+
+# target to preprocess a source file
+src/Input.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Input.cpp.i
+.PHONY : src/Input.cpp.i
+
+src/Input.s: src/Input.cpp.s
+
+.PHONY : src/Input.s
+
+# target to generate assembly for a file
+src/Input.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/src/Input.cpp.s
+.PHONY : src/Input.cpp.s
 
 src/Map.obj: src/Map.cpp.obj
 
@@ -293,12 +347,18 @@ help:
 	@echo ... Game
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... src/AnimatedSprite.obj
+	@echo ... src/AnimatedSprite.i
+	@echo ... src/AnimatedSprite.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s
 	@echo ... src/Graphics.obj
 	@echo ... src/Graphics.i
 	@echo ... src/Graphics.s
+	@echo ... src/Input.obj
+	@echo ... src/Input.i
+	@echo ... src/Input.s
 	@echo ... src/Map.obj
 	@echo ... src/Map.i
 	@echo ... src/Map.s

@@ -20,14 +20,21 @@ namespace globals
     const int TILE_HEIGHT = (int)(TILE_IMG_HEIGHT*TILE_SIZE);
     const int TILE_SPAWN_TIME = 2000;
 
-    //Ground size
+    //Ground
     const int GROUND_HEIGHT = 2*TILE_HEIGHT;
+    const int GROUND_POS = SCREEN_HEIGHT - GROUND_HEIGHT;
 
-    //Tile type
+    //Player size
+    const int PLAYER_SIZE = 2;
+    const int PLAYER_WIDTH = 64;
+    const int PLAYER_HEIGHT = 64;
+
+    //Sprite type
     const int BACKGROUND = 0;
     const int GROUND_TILE = 1;
     const int PLATFORM_TILE = 2;
     const int SPIKE_TILE = 3;
+    const int PLAYER = 4;
 
     //Spawn probability
     const int SPIKE_PROBA = 5;

@@ -67,7 +67,6 @@ void Map::destroyTiles(Graphics &graphics) {
 
                 //Random spawn of spikes
                 int spike = rand() % globals::SPIKE_PROBA + 1;
-                std::cout << spike << std::endl;
 
                 if(spike == globals::SPIKE_PROBA)
                 {

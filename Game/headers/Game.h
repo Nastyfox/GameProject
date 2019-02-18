@@ -5,7 +5,7 @@
 #ifndef GAME_GAME_H
 #define GAME_GAME_H
 
-#include "../headers/Sprite.h"
+#include "../headers/AnimatedSprite.h"
 #include "../headers/Map.h"
 
 class Graphics;
@@ -15,7 +15,7 @@ public:
     Game();
     virtual ~Game();
 
-    void update();
+    void update(int elaspedTime);
     void draw(Graphics &graphics);
 
 private:
@@ -26,6 +26,7 @@ private:
     bool isRunning;
 
     Sprite background;
+    AnimatedSprite player;
     Map map;
 };
 

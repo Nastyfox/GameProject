@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Game Project/GameProject/Game/src/AnimatedSprite.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/AnimatedSprite.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Game.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Game.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Graphics.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Graphics.cpp.obj"
+  "D:/Game Project/GameProject/Game/src/Input.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Input.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Map.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Map.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Sprite.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Sprite.cpp.obj"
   "D:/Game Project/GameProject/Game/src/Tile.cpp" "D:/Game Project/GameProject/Game/cmake-build-debug/CMakeFiles/Game.dir/src/Tile.cpp.obj"
